@@ -308,3 +308,8 @@
   .skills {
     margin: 50px;
   }
+
+  .sql {
+      color: red;
+      border-radius: 50%;
+  }
