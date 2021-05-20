@@ -309,7 +309,14 @@
     margin: 50px;
   }
 
-  .sql {
-      color: red;
-      border-radius: 50%;
-  }
+  .skills-tag{
+      padding:5px 12px;
+      width:auto;
+      border-radius:
+      0px;margin-right:
+      8px;margin-bottom:
+      8px;font-size:18px
+    }
+    .sql {
+        background:paleturquoise;
+    }
