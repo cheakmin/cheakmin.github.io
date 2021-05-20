@@ -7,344 +7,92 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700" rel="stylesheet">
 
-<style>
-
-
-h1 {
-	color: #3c5763;
-	font-size: 80px
-
-}
-
-h2 {
-    color: black;
-    word-wrap: break-word;
-    font-size: 30px;
-}
-
-.highlight {
-
-    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #d2afff 50%);
-
-}
-
-.intro {
-
-   	font-family: 'Raleway', sans-serif;;
-}
-
-hr {
-    width: 500px;
-    height: 10px;
-    border: none;
-    background: black;
-}
-
-h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 30px;
-
-}
-
-h4 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 25px;
-
-}
-
-h5 {
-    font-size: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-p {
-    text-align: center;
-    color: black;
-    font-size: 20px;
-}
-
-
-.footer {
-   padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body {
-  text-align: center;
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-  background: #ffffff;
-}
-
-.timeline {
-  position: relative;
-  width: 100%;
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 15px 0;
-}
-
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 2px;
-  background: black;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -1px;
-}
-
-.container {
-  padding: 15px 30px;
-  position: relative;
-  background: inherit;
-  width: 50%;
-}
-
-.container.left {
-  left: 0;
-}
-
-.container.right {
-  left: 50%;
-}
-
-.container::after {
-  content: '';
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  top: calc(50% - 8px);
-  right: -8px;
-  background: #d2afff;
-  border: 2px solid #d2afff;
-  border-radius: 16px;
-  z-index: 1;
-}
-
-.container.right::after {
-  left: -8px;
-}
-
-.container::before {
-  content: '';
-  position: absolute;
-  width: 50px;
-  height: 2px;
-  top: calc(50% - 1px);
-  right: 8px;
-  background: black;
-  z-index: 1;
-}
-
-.container.right::before {
-  left: 8px;
-}
-
-.container .date {
-  position: absolute;
-  display: inline-block;
-  top: calc(50% - 8px);
-  text-align: center;
-  font-size: 14px;
-  font-weight: bold;
-  color: black;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  z-index: 1;
-}
-
-.container.left .date {
-  right: -200px;
-}
-
-.container.right .date {
-  left: -200px;
-}
-
-.container .icon {
-  position: absolute;
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  padding: 9px 0;
-  top: calc(50% - 20px);
-  background: #d2afff;
-  border: 2px solid black;
-  border-radius: 40px;
-  text-align: center;
-  font-size: 18px;
-  color: #006E51;
-  z-index: 1;
-}
-
-.container.left .icon {
-  right: 56px;
-}
-
-.container.right .icon {
-  left: 56px;
-}
-
-.container .content {
-  padding: 30px 90px 30px 30px;
-  background: #e6d7ff;
-  border: 2px solid black;
-  position: relative;
-  border-radius: 0 500px 500px 0;
-}
-
-.container.right .content {
-  padding: 30px 30px 30px 90px;
-  border-radius: 500px 0 0 500px;
-}
-
-.container .content h2 {
-  margin: 0 0 10px 0;
-  font-size: 18px;
-  font-weight: normal;
-  color: #3c5763;
-}
-
-.container .content p {
-  margin: 0;
-  font-size: 16px;
-  line-height: 22px;
-  color: #000000;
-}
-
-@media (max-width: 767.98px) {
-  .timeline::after {
-    left: 90px;
-  }
-
-  .container {
-    width: 100%;
-    padding-left: 120px;
-    padding-right: 30px;
-  }
-
-  .container.right {
-    left: 0%;
-  }
-
-  .container.left::after,
-  .container.right::after {
-    left: 82px;
-  }
-
-  .container.left::before,
-  .container.right::before {
-    left: 100px;
-    border-color: transparent #006E51 transparent transparent;
-  }
-
-  .container.left .date,
-  .container.right .date {
-    right: auto;
-    left: 15px;
-  }
-
-  .container.left .icon,
-  .container.right .icon {
-    right: auto;
-    left: 146px;
-  }
-
-  .container.left .content,
-  .container.right .content {
-    padding: 30px 30px 30px 90px;
-    border-radius: 500px 0 0 500px;
-  }
-}
-
-a {
-    color: black;
-
-}
-
-
-
-</style>
 
 <head>
 
-<title>cheakmin.github.io</title>
+  <title>Cheak Min</title>
 
 
-    <meta name="description" content="if not now then when?">
+  <meta name="description" content="if not now then when?">
 
 </head>
 
 <body>
 
-<div class="intro">
-<h1> Hi There!</h1>
+
+  <div class="topnav">
+    <ul>
+      <!--a class="title" href="#home">cheakmin.github.io</a>-->
+      <a class="active" id="nav" href="#home">Home</a>
+      <a href="#works">Works</a>
+      <a href="github">Github</a>
+      <a href="#about">About</a>
+  </div>
+  </ul>
+  </div>
+
+  <div class="intro">
+    <h1> Hi There!</h1>
 
     <h2> <span class="highlight"><u>Cheak Min</u> </span> here. <br>
-    I am known to have an eye for details.</h2>
+    I am known to have an 👀 for details.</h2>
 
-</div>
-<hr>
+  </div>
+  <hr>
 
-
-<h3><u><span class="highlight">Experience</u></h3></span>
-<h4>ST Engineering Ltd:</h4>
-<h5><small>August 2014 - Present </small></h5>
-       <p> <li>Mainly creating Graphical User Interface</li>
+<div class="exp">
+  <h3><u><span class="highlight">Experience</u></h3></span>
+      <h4>ST Engineering Ltd:</h4>
+      <h5><small>August 2014 - Present </small></h5>
+      <p>
+        <li>Mainly creating Graphical User Interface</li>
         <li>Once in awhile writing SQL scripts</li>
         <li>Tiny bit of hands-on experience in Networking</li>
-</p>
+      </p></div>
 
-
-<h3><u><span class="highlight">Education</span></u></h3>
-<div class="timeline">
-    <div class="container left">
-        <div class="date">July 2017 - April 2021</div>
-        <i class="icon fa fa-home"></i>
-        <div class="content">
-            <h2><u>Singapore University of Social Sciences</u></h2>
-            <p>
-                Bsc in Information and Communication Technology<br>
-                <small>
-                    <li>SQL</li>
-                    <li>Networking</li>
-                    <li>iOS and Android Application Development</li>
-                </small>
+<div class="education">
+      <h3><u><span class="highlight">Education</span></u></h3>
+      <div class="timeline">
+        <div class="container left">
+          <div class="date">July 2017 - April 2021</div>
+          <i class="icon fa fa-home"></i>
+          <div class="content">
+            <h2><b>Singapore University of Social Sciences</b></h2>
+            <p><i>Bsc in Information and Communication Technology</i>
+            <h6>
+              <li>SQL</li>
+              <li>Networking</li>
+              <li>iOS and Android Application Development</li>
+            </h6>
             </p>
+          </div>
         </div>
-    </div>
-    <div class="container right">
-        <div class="date">April 2011 - Feb 2014</div>
-        <i class="icon fa fa-gift"></i>
-        <div class="content">
-            <h2><u>Singapore Polytechnic</u></h2>
+        <div class="container right">
+          <div class="date">April 2011 - Feb 2014</div>
+          <i class="icon fa fa-gift"></i>
+          <div class="content">
+            <h2><b>Singapore Polytechnic</b></h2>
             <p>
-                Diploma is Electrical and Electronics Engineering
+              <i>Diploma is Electrical and Electronics Engineering</i>
             </p>
+          </div>
         </div>
-    </div>
-</div>
-    <h3><u><span class="highlight">Skills</span></u></h3>
-<li>SQL</li>
-    <li>UI/UX</li>
+      </div>
+      
+      <div class="skills">
+      <h3><u><span class="highlight">Skills</span></u></h3>
+      <li>SQL</li>
+      <li>UI/UX</li></div>
+      
 
-    <div class="footer">
-        <p><a href="mailto:cheakmin94@hotmail.com">Hit me up</a></p>
-    </div>
+      <div class="techskills">TEST</div>
+
+      <div class="footer">
+        <p><a href="mailto:cheakmin94@hotmail.com"><b>HIT ME UP</b></a></p>
+      </div>
 
 
 
 </body>
+
 </html>
