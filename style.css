@@ -3,6 +3,7 @@
     font-weight: bold;
     overflow: auto;
     color: #5C5C5C, 100%;
+    font-size: 20px;
   }
   
   .topnav a {
@@ -22,6 +23,18 @@
   .topnav a:hover {
     color: rgb(65, 63, 63);
   }
+
+  body {
+    text-align: center;
+    margin: 0;
+    font-family: 'consolas';
+    background-color: #2C2C2C;
+    position: relative;
+    color: #E5E5E5;
+
+
+  }
+  
   
   h1 {
     color: palevioletred;
@@ -32,7 +45,7 @@
   }
   
   h2 {
-    color: black;
+    color: #E5E5E5, 100%;
     word-wrap: break-word;
     font-size: 30px;
   }
@@ -46,12 +59,12 @@
   }
   
   .intro {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Consolas';
   }
   
   hr {
-    width: 500px;
-    height: 10px;
+    width: 1000px;
+    height: 5px;
     border: none;
     background: black;
   }
@@ -60,6 +73,7 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 30px;
+    color: #B08EA2;
   }
   
   h4 {
@@ -105,21 +119,13 @@
     box-sizing: border-box;
   }
   
-  body {
-    text-align: center;
-    margin: 0;
-    font-family: 'consolas';
-    background: #2C2C2C, 100%;
-    position: relative;
-    color: #E5E5E5, 100%;
-  }
-  
   .timeline {
     position: relative;
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
     padding: 15px 0;
+    color:#B08EA2, 100%;
   }
   
   .timeline::after {
@@ -155,8 +161,8 @@
     height: 16px;
     top: calc(50% - 8px);
     right: -8px;
-    background: #d2afff;
-    border: 2px solid #d2afff;
+    background: #B08EA2;
+    border: 2px solid #B08EA2;
     border-radius: 16px;
     z-index: 1;
   }
@@ -187,7 +193,7 @@
     text-align: center;
     font-size: 14px;
     font-weight: bold;
-    color: black;
+    color: #E5E5E5, 100%;
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -208,7 +214,7 @@
     height: 40px;
     padding: 9px 0;
     top: calc(50% - 20px);
-    background: lavenderblush;
+    background: #B08EA2, 100%;
     border: 2px solid black;
     border-radius: 40px;
     text-align: center;
@@ -227,7 +233,7 @@
   
   .container .content {
     padding: 30px 90px 30px 30px;
-    background: #e6d7ff;
+    background: #B08EA2;
     border: 2px solid black;
     position: relative;
     border-radius: 0 500px 500px 0;
@@ -318,7 +324,4 @@
       0px;margin-right:
       8px;margin-bottom:
       8px;font-size:18px
-    }
-    .sql {
-        background:paleturquoise;
     }
