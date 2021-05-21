@@ -1,7 +1,8 @@
 .topnav {
-    background-color: #91a0c7;
+    background-color: #B08EA2;
     font-weight: bold;
     overflow: auto;
+    color: #5C5C5C, 100%;
   }
   
   .topnav a {
@@ -107,9 +108,10 @@
   body {
     text-align: center;
     margin: 0;
-    font-family: 'Raleway', sans-serif;
-    background: #ffffff;
+    font-family: 'consolas';
+    background: #2C2C2C, 100%;
     position: relative;
+    color: #E5E5E5, 100%;
   }
   
   .timeline {
