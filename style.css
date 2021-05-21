@@ -73,7 +73,7 @@
     margin-top: 0;
     margin-bottom: 0;
     font-size: 30px;
-    color: #B08EA2;
+    color: palevioletred;
   }
   
   h4 {
@@ -219,7 +219,7 @@
     border-radius: 40px;
     text-align: center;
     font-size: 18px;
-    color: slategray;
+    color: #2C2C2C;
     z-index: 1;
   }
   
@@ -248,7 +248,7 @@
     margin: 0 0 10px 0;
     font-size: 18px;
     font-weight: normal;
-    color: #3c5763;
+    color: #2C2C2C;
   }
   
   .container .content p {
@@ -281,7 +281,7 @@
     .container.left::before,
     .container.right::before {
       left: 100px;
-      border-color: transparent #006e51 transparent transparent;
+      border-color: transparent #2C2C2C transparent transparent;
     }
   
     .container.left .date,
