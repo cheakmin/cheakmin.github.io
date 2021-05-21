@@ -27,7 +27,7 @@
   body {
     text-align: center;
     margin: 0;
-    font-family: 'consolas';
+    font-family: 'consolas',monaco,monospace;
     background-color: #2C2C2C;
     position: relative;
     color: #E5E5E5;
@@ -59,7 +59,7 @@
   }
   
   .intro {
-    font-family: 'Consolas';
+    font-family: 'Consolas' ,monaco,monospace;
   }
   
   hr {
