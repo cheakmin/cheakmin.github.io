@@ -156,6 +156,10 @@ nav {
       height: 40px;
     }
 
+    #intro-pic {
+      width: 200px;
+    }
+
   }
 
   @media screen and (max-width: 1040px) {
@@ -169,10 +173,12 @@ nav {
     .nav-links a {
    font-size: 16px;
     }
-
-
     h2 {
       font-size: 20px;
+    }
+
+    #intro-pic {
+      width: 300px;
     }
 
   }
