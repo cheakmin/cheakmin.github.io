@@ -32,24 +32,30 @@ nav {
   body {
     text-align: center;
     margin: 0;
-    font-family: 'consolas',monaco,monospace;
-    background-color: #2C2C2C;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffedff;
     position: relative;
-    color: #E5E5E5;
+
+  
   } 
   h1 {
-    color: #dce6ee;
-    font-size: 104px;
-    text-shadow: 5px 3.5px 0 #000;
-    /**-webkit-text-stroke: 3px black;**/
-    
+    color:  #121489;
+    font-size: 100px;
+    /**-webkit-text-stroke: 3px black;**/   
   }
-  
+
+
   h2 {
     color: #E5E5E5, 100%;
     word-wrap: break-word;
     font-size: 24px;
   }
+
+  #name-tag, #first-intro, #opp-tag, #create-tag {
+    font-family: poppins;
+    color:  #121489;
+  }
+
   
   .namehighlight {
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50% red 50%);
@@ -60,7 +66,8 @@ nav {
   }
   
   .intro {
-    font-family: 'Consolas' ,monaco,monospace;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
   }
   
   hr {
@@ -112,6 +119,18 @@ nav {
     font-size: 20px;
   }
 
+  .footer {
+    position: static;
+    left: 0%;
+    bottom: 0%;
+    height: 100px;
+    width: 100%;
+    background-color: #B08EA2;
+    font-weight: bold;
+    font-size: 24px;
+    color: #121212;
+    line-height: 100px;
+  }
  
   
   .footer a {
@@ -133,9 +152,10 @@ nav {
     }
 
     .footer {
-      font-size: 14px;
+      font-size: 12px;
       height: 40px;
     }
+
   }
 
   @media screen and (max-width: 1040px) {
@@ -162,15 +182,4 @@ nav {
   }
   
 
-    .footer {
-      position: static;
-      left: 0%;
-      bottom: 0%;
-      height: 100px;
-      width: 100%;
-      background-color: #B08EA2;
-      font-weight: bold;
-      font-size: 24px;
-      color: #121212;
-      line-height: 100px;
-    }
+
